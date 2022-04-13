@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">\t Hearty</string>
+    <string name="medicine_name">Type the name of the medicine</string>
+    <!--    <string name="default_web_client_id">769944534307-cef6iips656p15s7vr7ms8sttovlhcs5.apps.googleusercontent.com</string>-->
+</resources>

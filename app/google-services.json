@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1025830413041",
+    "project_id": "bmop-539c0",
+    "storage_bucket": "bmop-539c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025830413041:android:ab118f657b9cbe403d7f50",
+        "android_client_info": {
+          "package_name": "com.example.bmop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025830413041-039uutltm6el92iacp4punoj9fr03bip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmop",
+            "certificate_hash": "61cc6aa970500375b04128dfd874f2fca9384072"
+          }
+        },
+        {
+          "client_id": "1025830413041-4hfgd1p8euuems5l7jbklloibc9c3mj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmop",
+            "certificate_hash": "a40deb4ca1bc7704361321f677b1b5110f5e4b64"
+          }
+        },
+        {
+          "client_id": "1025830413041-nqsqfu61s8sr5ptf4j5v7iuk15dci7ep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmop",
+            "certificate_hash": "51a1d993a13656620846a2178966e351dd875fe1"
+          }
+        },
+        {
+          "client_id": "1025830413041-p9bhjrkl4uplbm4bi34fdd8fe3i0m3d0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmop",
+            "certificate_hash": "c4d5409364bdcdd937b52bf647251db965eb5858"
+          }
+        },
+        {
+          "client_id": "1025830413041-4je7h786v7t4kkg9i8v1gakerj36gunf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIhNRB1tiP3cn-85LG9Wfrf3h5bGrQXJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025830413041-4je7h786v7t4kkg9i8v1gakerj36gunf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

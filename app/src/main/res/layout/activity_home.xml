@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg26"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@color/white"
+        app:neumorph_shadowColorDark="#83291B1B"
+        app:neumorph_shadowColorLight="#661C1B1B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/home_medicines"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="91dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="88dp"
+                android:onClick="openMedicineSearchActivity"
+                android:text="Medicines"
+                android:textColor="@color/apna_color1"
+                android:textSize="16sp"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:neumorph_backgroundColor="#FFFFFF"
+                app:neumorph_shadowColorDark="#83FF3131"
+                app:neumorph_shadowColorLight="#66494949" />
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/home_blood_plasma"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="76dp"
+                android:onClick="openBloodActivity"
+                android:text="Blood"
+                android:textColor="@color/apna_color"
+                android:textSize="16sp"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_equipments"
+                app:neumorph_backgroundColor="#FFFFFF"
+                app:neumorph_shadowColorDark="#83FF3131"
+                app:neumorph_shadowColorLight="#66494949" />
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/home_equipments"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="81dp"
+                android:onClick="openEquipmentActivity"
+                android:text="Equipments"
+                android:textColor="@color/apna_color"
+                android:textSize="16dp"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_medicines"
+                app:neumorph_backgroundColor="#FFFFFF"
+                app:neumorph_shadowColorDark="#83FF3131"
+                app:neumorph_shadowColorLight="#66494949" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="188dp"
+        android:layout_height="107dp"
+        android:fontFamily="@font/ric"
+        android:text="Home"
+        android:textColor="@color/apna_color1"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toTopOf="@+id/neumorphCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/post"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="openRemove"
+        android:text="Posts"
+        android:textColor="@color/apna_color1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/logOut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView"
+        app:layout_constraintVertical_bias="0.458"
+        app:neumorph_backgroundColor="#FFFFFF"
+        app:neumorph_shadowColorDark="#83FF3131"
+        app:neumorph_shadowColorLight="#66494949" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/logOut"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="50dp"
+        android:text="LogOut"
+        android:textColor="@color/apna_color1"
+        app:neumorph_backgroundColor="#FFFFFF"
+        app:neumorph_shadowColorDark="#83FF3131"
+        app:neumorph_shadowColorLight="#66494949"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/post"
+        app:layout_constraintTop_toBottomOf="@+id/neumorphCardView"
+        android:onClick="signOut"/>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/logOut2"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="messages"
+        android:text="Messages"
+        android:textColor="@color/apna_color1"
+        app:layout_constraintBottom_toBottomOf="@+id/logOut"
+        app:layout_constraintEnd_toStartOf="@+id/logOut"
+        app:layout_constraintStart_toEndOf="@+id/post"
+        app:neumorph_backgroundColor="#FFFFFF"
+        app:neumorph_shadowColorDark="#83FF3131"
+        app:neumorph_shadowColorLight="#66494949" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
